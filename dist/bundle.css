@@ -1,0 +1,84 @@
+
+.list, 
+.details {
+	font: 15px Lucida Sans Unicode, sans-serif;
+	color: #000099;	
+	margin: 50px auto;
+	padding: 0 100px;
+}
+.details {
+	padding: 0 200px;
+}
+.item {
+	position: relative;
+	font-size: 18px;
+	text-align: left;
+	border: 1px solid #000099;
+	list-style: none;
+	padding: 30px 80px;
+	margin-bottom: -1px;
+}
+.details {
+	font-size: 25px;
+}
+.details label, 
+.details input, 
+.form-item__description {
+	font-size: 16px;
+}
+.details label, 
+.form-item__description {
+	margin-left: 20px;
+}
+.form-item__description {
+	font-size: 18px;
+	margin-top: 25px;
+}
+.details input {
+	border: 1px solid #000099;
+	border-radius: 5px;
+	text-align: center;
+	float: right;
+	margin-top: 5px;
+}
+.form-item {
+	position: relative;
+	margin-top: 30px;
+	padding: 0 100px;
+}
+.name {
+	text-align: center;
+}
+h1 {
+	margin: 50px;
+  text-align: center;
+  color: #000099;
+}
+.button__details, 
+.button__details:focus,
+.button__edit,
+.button__edit:focus {
+	border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: solid 1px #000099;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+.button__details {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+.button__edit {
+	margin: 20px;
+}
+.button__details:hover,
+.button__edit:hover {
+	background-color: #e6e6ff;
+	transition: all .25s ease-in-out;
+}
+.button__details a:link {
+	text-decoration: none;
+ }

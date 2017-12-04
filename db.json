@@ -1,0 +1,400 @@
+{
+  "entrepreneurs": [
+    {
+      "id": 1,
+      "first_name": "Oleksii",
+      "last_name": "Alanov",
+      "code": 3870856152,
+      "address": {
+        "zip_code": "04123",
+        "city": "Kyiv",
+        "street": "Stelmakha",
+        "street_number": 5,
+        "apartment_number": 65
+      },
+      "registration": {
+        "registration_number": "2 078 000 0000 022688",
+        "date_of_registration": {
+          "day": 15,
+          "month": "February",
+          "year": 2013
+        }
+      },
+      "bank_account": {
+        "account": 2600565899,
+        "bank": "Privat Bank",
+        "MFO": 350256
+      }
+    },
+    {
+      "id": 2,
+      "first_name": "Slaviana",
+      "last_name": "Aponina",
+      "code": 3297581165,
+      "address": {
+        "zip_code": "79400",
+        "region": "Cherkaska",
+        "city": "Uman",
+        "street": "Lenina",
+        "street_number": 51,
+        "apartment_number": 76
+      },
+      "registration": {
+        "registration_number": "2 009 000 0000 009833",
+        "date_of_registration": {
+          "day": 25,
+          "month": "November",
+          "year": 2015
+        }  
+      },
+      "bank_account": {
+        "account": 2600564450555,
+        "bank": "UkrsibBank",
+        "MFO": 351005
+      }
+    },
+    {
+      "id": 3,
+      "first_name": "Volodymyr",
+      "last_name": "Artamonov",
+      "code": 3038008272,
+      "address":{
+        "zip_code": "09181",
+        "region": "Kyivska",
+        "city": "Bila Tserkva",
+        "street": "Raskovoi",
+        "street_number": 60,
+        "apartment_number": 60
+      },
+      "registration": {
+        "registration_number": "2 353 000 0000 036957",
+        "date_of_registration": {
+          "day": 11,
+          "month": "January",
+          "year": 2017
+        } 
+      },
+      "bank_account": {
+        "account": 2600564453000,
+        "bank": "UkrsibBank",
+        "MFO": 351005
+      }
+    },
+    {
+      "id": 4,
+      "first_name": "Arsen",
+      "last_name": "Babyn",
+      "code": 3328183977,
+      "address": {
+        "zip_code": "33027",
+        "region": "Rivnenska",
+        "city": "Rivne",
+        "street": "Kyiivska",
+        "street_number": 44,
+        "apartment_number": 169
+      },
+      "registration": {
+        "registration_number": "2 073 000 0000 023677",
+        "date_of_registration": {
+          "day": 18,
+          "month": "October",
+          "year": 2013
+        }
+      },
+      "bank_account": {
+        "account": 26005636547900,
+        "bank": "Procredit Bank",
+        "MFO": 320984
+      }
+    },
+    {
+      "id": 5,
+      "first_name": "Oleksii",
+      "last_name": "Barynov",
+      "code": 3063671911,
+      "address": {
+        "zip_code": "04074",
+        "city": "Kyiv",
+        "street": "Mostytska",
+        "street_number": 2,
+        "apartment_number": 33
+      },
+      "registration": {
+        "registration_number": "2 071 000 0000 000079",
+        "date_of_registration": {
+          "day": 27,
+          "month": "May",
+          "year": 2015
+        }
+      },
+      "bank_account": {
+        "account": 260056047900,
+        "bank": "Credit Agricole Bank",
+        "MFO": 300614
+      }
+    },
+    {
+      "id": 6,
+      "first_name": "Maksim",
+      "last_name": "Byrezhnev",
+      "code": 3063657911,
+      "address": {
+        "zip_code": "04211",
+        "city": "Kyiv",
+        "street": "Gavro",
+        "street_number": 15,
+        "apartment_number": 4
+      },
+      "registration": {
+        "registration_number": "2 069 000 0000 087249",
+        "date_of_registration": {
+          "day": 15,
+          "month": "December",
+          "year": 2015
+        }
+      },
+      "bank_account": {
+        "account": 2600560474450,
+        "bank": "Privat Bank",
+        "MFO": 320649
+      }
+    },
+    {
+      "id": 7,
+      "first_name": "Olga",
+      "last_name": "Bondarenko",
+      "code": 3280397620,
+      "address": {
+        "zip_code": "03140",
+        "city": "Kyiv",
+        "street": "Vasylkyvska",
+        "street_number": 37,
+        "apartment_number": 98
+      },
+      "registration": {
+        "registration_number": "2 266 000 0000 021024",
+        "date_of_registration": {
+          "day": 20,
+          "month": "November",
+          "year": 2014
+        }
+      },
+      "bank_account": {
+        "account": 26007051214311,
+        "bank": "Privat Bank",
+        "MFO": 320649
+      }
+    },
+    {
+      "id": 8,
+      "first_name": "Anastasiia",
+      "last_name": "Vasutkina",
+      "code": 3280303920,
+      "address": {
+        "zip_code": "03142",
+        "city": "Kyiv",
+        "street": "Stusa",
+        "street_number": 1,
+        "apartment_number": 25
+      },
+      "registration": {
+        "registration_number": "2 072 000 0000 021119",
+        "date_of_registration": {
+          "day": 4,
+          "month": "April",
+          "year": 2012
+        }
+      },
+      "bank_account": {
+        "account": 26007101569,
+        "bank": "Aval Bank",
+        "MFO": 380805
+      }
+    },
+    {
+      "id": 9,
+      "first_name": "Ruslan",
+      "last_name": "Voronuk",
+      "code": 3434201218,
+      "address": {
+        "zip_code": "79018",
+        "region": "Lvivska",
+        "city": "Lviv",
+        "street": "Zaliznychna",
+        "street_number": 84,
+        "apartment_number": 63
+      },
+      "registration": {
+        "registration_number": "2 415 000 0000 071243",
+        "date_of_registration": {
+          "day": 10,
+          "month": "October",
+          "year": 2016
+        }
+      },
+      "bank_account": {
+        "account": 2600808562293,
+        "bank": "KredoBank",
+        "MFO": 325365
+      }
+    },
+    {
+      "id": 10,
+      "first_name": "Yevhen",
+      "last_name": "Honcharov",
+      "code": 3416318855,
+      "address": {
+        "zip_code": "20001",
+        "region": "Cherkaska",
+        "city": "Khrystynivka",
+        "street": "Maksymova",
+        "street_number": 11
+      },
+      "registration": {
+        "registration_number": "2 016 000 0000 000008",
+        "date_of_registration": {
+          "day": 27,
+          "month": "March",
+          "year": 2017
+        }
+      },
+      "bank_account": {
+        "account": 26000052680675,
+        "bank": "Privat Bank",
+        "MFO": 320649
+      }
+    },
+    {
+      "id": 11,
+      "first_name": "Andrii",
+      "last_name": "Hritsenko",
+      "code": 3249809039,
+      "address": {
+        "zip_code": "54058",
+        "region": "Mykolaivska",
+        "city": "Mykolaiv",
+        "street": "Lazurna",
+        "street_number": 40,
+        "apartment_number": 163
+      },
+      "registration": {
+        "registration_number": "2 522 000 0000 002086",
+        "date_of_registration": {
+          "day": 3,
+          "month": "October",
+          "year": 2012
+        }
+      },
+      "bank_account": {
+        "account": 2600005239875,
+        "bank": "Privat Bank",
+        "MFO": 326610
+      }
+    },
+    {
+      "id": 12,
+      "first_name": "Maryna",
+      "last_name": "Dmytrova",
+      "code": 3241122806,
+      "address": {
+        "zip_code": "03168",
+        "city": "Kyiv",
+        "street": "Ziny Hayday",
+        "street_number": 10,
+        "apartment_number": 369
+      },
+      "registration": {
+        "registration_number": "2 073 000 0000 020294",
+        "date_of_registration": {
+          "day": 15,
+          "month": "August",
+          "year": 2012
+        }
+      },
+      "bank_account": {
+        "account": 2600005239875,
+        "bank": "Privat Bank",
+        "MFO": 326610
+      }
+    },
+    {
+      "id": 13,
+      "first_name": "Aleksandr",
+      "last_name": "Dobronravov",
+      "code": 3346101298,
+      "address": {
+        "zip_code": "32300",
+        "region": "Khmelnitska",
+        "city": "Khmelnitsk",
+        "street": "Kniaziv",
+        "street_number": 15,
+        "apartment_number": 83
+      },
+      "registration": {
+        "registration_number": "2 676 000 0000 010011",
+        "date_of_registration": {
+          "day": 16,
+          "month": "Semtember",
+          "year": 2016
+        }
+      },
+      "bank_account": {
+        "account": 260000526975,
+        "bank": "Ukrsibbank",
+        "MFO": 351005
+      }
+    },
+    {
+      "id": 14,
+      "first_name": "Olena",
+      "last_name": "Dundich",
+      "code": 3375892167,
+      "address": {
+        "zip_code": "02168",
+        "city": "Kyiv",
+        "street": "Reheneratorna",
+        "street_number": 4,
+        "apartment_number": 22
+      },
+      "registration": {
+        "registration_number": "2 068 000 0000 0333484",
+        "date_of_registration": {
+          "day": 25,
+          "month": "November",
+          "year": 2013
+        }
+      },
+      "bank_account": {
+        "account": 260000526975,
+        "bank": "Credit Agricole Bank",
+        "MFO": 300614
+      }
+    },
+    {
+      "id": 15,
+      "first_name": "Dmytro",
+      "last_name": "Zavalov",
+      "code": 3371697167,
+      "address": {
+        "zip_code": "03162",
+        "city": "Kyiv",
+        "street": "Zodchykh",
+        "street_number": 54,
+        "apartment_number": 212
+      },
+      "registration": {
+        "registration_number": "2 068 000 0000 0107484",
+        "date_of_registration": {
+          "day": 6,
+          "month": "February",
+          "year": 2017
+        }
+      },
+      "bank_account": {
+        "account": 2600005469875,
+        "bank": "Privat",
+        "MFO": 300711
+      }
+    }
+  ]
+}
