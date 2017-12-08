@@ -14,6 +14,11 @@ module.exports = {
         use: 'babel-loader'
       },
       {
+        test: /\.html$/,
+        exclude: /node_modules/,
+        use: 'raw-loader'
+      },
+      {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: "style-loader",

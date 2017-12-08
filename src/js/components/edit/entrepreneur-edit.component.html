@@ -1,0 +1,93 @@
+<div class="row details">
+	<div class="name">
+		<div>{{$ctrl.entrepreneur.last_name}} {{$ctrl.entrepreneur.first_name}}</div>
+	</div>	
+	<form action="" name="editForm">
+		<div class="row form-group">
+			<label for="code">Identification Code</label>
+			<input id="code" type="number" name="codeInput" ng-model="$ctrl.entrepreneur.code" disabled="$ctrl.isDisabled">
+		</div>
+		<div class="row form-group">
+			<div class="form-group__description">
+				Address
+			</div>
+			<div class="form-group__item">
+			  <label for="zipCode">Zip Code</label>
+			  <input id="zipCode" type="text" name="zipCodeInput" placeholder="please enter Zip Code" ng-model="$ctrl.entrepreneur.address.zip_code" required>
+			  <span class="error" ng-if="editForm.zipCodeInput.$invalid">Please enter a number</span>		
+			</div>
+			<div class="form-group__item">
+				<label for="region">Region</label>
+				<input id="region" type="text" name="regionInput" ng-model="$ctrl.entrepreneur.address.region">
+				<span class="error" ng-if="editForm.regionInput.$invalid"></span>
+			</div>
+			<div class="form-group__item">
+				<label for="city">City</label>
+				<input id="city" placeholder="please enter City" type="text" name="cityInput" ng-model="$ctrl.entrepreneur.address.city" required>
+				<span class="error" ng-if="editForm.cityInput.$invalid"></span>
+			</div>	
+			<div class="form-group__item">
+				<label for="street">Street</label>
+				<input id="street" placeholder="please enter Street" type="text" name="streetInput" ng-model="$ctrl.entrepreneur.address.street" required>
+				<span class="error" ng-if="editForm.streetInput.$invalid"></span>
+			</div>
+			<div class="form-group__item">
+				<label for="strNumber">Street Number</label>
+				<input id="strNumber" placeholder="please enter Street Number" type="number" name="strNumberInput" ng-model="$ctrl.entrepreneur.address.street_number" required>
+				<span class="error" ng-if="editForm.strNumberInput.$invalid"></span>
+			</div>	
+			<div class="form-group__item">
+				<label for="aptNumber">Apartment Number</label>
+				<input id="aptNumber" type="number" name="aptNumberInput" step="1" min="1" max="400" ng-model="$ctrl.entrepreneur.address.apartment_number" required>
+				<span class="error" ng-if="editForm.aptNumberInput.$invalid">Please enter a number</span>
+			</div>			
+		</div >
+		<div class="row form-group">
+			<div class="form-group__description">
+				Registration
+			</div>
+			<div class="form-group__item">
+				<label for="regNumber">Registration Number</label>
+				<input id="regNumber" placeholder="please enter Registration Number" type="text" name="regNumberInput"u ng-model="$ctrl.entrepreneur.registration.registration_number" required>
+				<span class="error" ng-if="editForm.regNumberInput.$invalid"></span>
+			</div>
+			<div class="form-group__item">
+				<label for="regDay">Registration Day</label>
+				<input id="regDay" placeholder="please enter Registration Day" type="number" name="regDayInput" step="1" min="1" max="31" ng-model="$ctrl.entrepreneur.registration.date_of_registration.day" required>
+				<span class="error" ng-if="editForm.regNumberInput.$invalid"></span>
+			</div>
+			<div class="form-group__item">
+				<label for="regMonth">Registration Month</label>
+				<input id="regMonth" placeholder="please enter Registration Month" type="text" name="regMonthInput" ng-model="$ctrl.entrepreneur.registration.date_of_registration.month" required>
+				<span class="error" ng-if="editForm.regMonthInput.$invalid"></span>
+			</div>
+			<div class="form-group__item">
+				<label for="regYear">Registration Year</label>
+				<input id="regYear" placeholder="please enter Registration Year" type="number" name="regYearInput" step="1" min="2000" max="2017" ng-model="$ctrl.entrepreneur.registration.date_of_registration.year" required>
+				<span class="error" ng-if="editForm.regYearInput.$invalid"></span>
+			</div>
+		</div>
+		<div class="row form-group">
+			<div class="form-group__description">
+				Bank Account
+			</div>
+			<div class="form-group__item">
+				<label for="account">Account</label>
+				<input id="account" placeholder="please enter Account" type="number" name="accountInput" ng-model="$ctrl.entrepreneur.bank_account.account" required>
+				<span class="error" ng-if="editForm.accountInput.$invalid"></span>
+			</div>
+			<div class="form-group__item">
+				<label for="bank">Bank</label>
+				<input id="bank" placeholder="please enter Bank" type="text" name="bankInput" ng-model="$ctrl.entrepreneur.bank_account.bank" required>
+				<span class="error" ng-if="editForm.bankInput.$invalid"></span>
+			</div>
+			<div class="form-group__item">
+				<label for="mfo">MFO</label>
+				<input id="mfo" placeholder="please enter MFO" type="number" name="mfoInput" ng-model="$ctrl.entrepreneur.bank_account.MFO" required>
+				<span class="error" ng-if="editForm.mfoInput.$invalid"></span>
+			</div>
+		</div>
+	</form>
+</div>
+
+

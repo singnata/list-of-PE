@@ -1,0 +1,86 @@
+<div class="row details">
+	<div class="name">
+		<div>{{$ctrl.entrepreneur.last_name}} {{$ctrl.entrepreneur.first_name}}</div>
+		<button class="button__edit"><a href="#!/details/{{$ctrl.entrepreneur.id}}/edit">edit profile</a></button>
+	</div>
+	<div class="row">
+		<table>
+			<tr>
+				<td>Identification Code</td>
+				<td>{{$ctrl.entrepreneur.code}}</td>
+			</tr>
+		</table>
+	</div>
+	<div class="description">Address</div>
+	<div class="row">
+	  <table>
+			<tr>
+				<td>Zip Code</td>
+				<td>{{$ctrl.entrepreneur.address.zip_code}}</td>
+			</tr>
+			<tr ng-if="$ctrl.entrepreneur.address.region">
+				<td>Region</td>
+				<td>{{$ctrl.entrepreneur.address.region}}</td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td>{{$ctrl.entrepreneur.address.city}}</td>
+			</tr>
+			<tr>
+				<td>Street</td>
+				<td>{{$ctrl.entrepreneur.address.street}}</td>
+			</tr>
+			<tr>
+				<td>Street Number</td>
+				<td>{{$ctrl.entrepreneur.address.street_number}}</td>
+			</tr>
+			<tr ng-if="$ctrl.entrepreneur.address.apartment_number">
+				<td>Apartment Number</td>
+				<td>{{$ctrl.entrepreneur.address.apartment_number}}</td>
+			</tr>
+		</table>
+	</div>
+	<div class="description">Registration</div>
+	<div class="row">
+		<table>
+			<tr>
+				<td>Registration Number</td>
+				<td>{{$ctrl.entrepreneur.registration.registration_number}}</td>
+			</tr>
+			<tr>
+				<td>Registration Day</td>
+				<td>{{$ctrl.entrepreneur.registration.date_of_registration.day}}</td>
+			</tr>
+			<tr>
+				<td>Registration Month</td>
+				<td>{{$ctrl.entrepreneur.registration.date_of_registration.month}}</td>
+			</tr>
+			<tr>
+				<td>Registration Year</td>
+				<td>{{$ctrl.entrepreneur.registration.date_of_registration.year}}</td>
+			</tr>
+		</table>
+	</div>
+	<div class="description">Bank Account</div>
+	<div class="row">
+	  <table>
+			<tr>
+				<td>Account</td>
+				<td>{{$ctrl.entrepreneur.bank_account.account}}</td>
+			</tr>
+			<tr>
+				<td>Bank</td>
+				<td>{{$ctrl.entrepreneur.bank_account.bank}}</td>
+			</tr>
+			<tr>
+				<td>MFO</td>
+				<td>{{$ctrl.entrepreneur.bank_account.MFO}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+
+
+
+

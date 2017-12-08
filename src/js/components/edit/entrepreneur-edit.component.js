@@ -1,6 +1,6 @@
-import template from './entrepreneur-details.component.html'
+import template from './entrepreneur-edit.component.html'
 
-export class EntrepreneurDetailsController {
+export class EntrepreneurEditDetailsController {
   constructor($routeParams, entrepreneursDataService) {
     'ngInject';
     this.entrepreneursDataService = entrepreneursDataService;
@@ -17,8 +17,8 @@ export class EntrepreneurDetailsController {
   } 
 };
 
-export const entrepreneurDetailsComponent = {
+export const entrepreneurEditDetailsComponent = {
   template,
   bindings: {},
-  controller: EntrepreneurDetailsController
+  controller: EntrepreneurEditDetailsController
 }
