@@ -1,0 +1,210 @@
+<form action="" name="editForm">
+	<div class="row form-group">
+		<div class="form-group__item">
+			<label for="firstName">First Name</label>
+			<input id="firstName" type="text" name="firstNameInput" 
+				ng-model="$ctrl.entrepreneur.first_name" 
+				ng-disabled="$ctrl.disabledInput"
+				ng-pattern="/^[a-zA-Z]+([\-][a-zA-Z]+)?$/"
+				required>
+			<span class="error" ng-if="editForm.firstNameInput.$error.required && editForm.firstNameInput.$touched">		
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.firstNameInput.$error.pattern">
+				enter a valid first name
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="lastName">Last Name</label>
+			<input id="lastName" type="text" name="lastNameInput" 
+				ng-model="$ctrl.entrepreneur.last_name" 
+				ng-disabled="$ctrl.disabledInput"
+				ng-pattern="/^[a-zA-Z]+([\-][a-zA-Z]+)?$/"
+				required>
+			<span class="error" ng-if="editForm.lastNameInput.$error.required && editForm.lastNameInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.lastNameInput.$error.pattern">
+				enter a valid last name
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="code">Identification Code</label>
+			<input id="code" type="number" name="codeInput" 
+				ng-model="$ctrl.entrepreneur.code"
+				ng-disabled="$ctrl.disabledInput"
+				ng-disabled="$ctrl.disabledInput"
+				ng-pattern="/^[1-9][0-9]{9}$/"
+				required>
+			<span class="error" ng-if="editForm.codeInput.$error.required && editForm.codeInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.codeInput.$error.pattern">
+				enter a valid last name
+			</span>
+		</div>
+	</div>
+	<div class="row form-group">
+		<div class="form-group__description">
+			Address
+		</div>
+		<div class="form-group__item">
+		  <label for="zipCode">Zip Code</label>
+		  <input id="zipCode" type="text" name="zipCodeInput" 
+		  	ng-model="$ctrl.entrepreneur.address.zip_code" 
+		  	ng-pattern="/^[0-9]{5}$/" 
+		  	required>
+		  <span class="error" ng-if="editForm.zipCodeInput.$error.pattern">
+		  	enter a valid zip code
+		  </span>
+			<span class="error" ng-if="editForm.zipCodeInput.$error.required && editForm.zipCodeInput.$touched">	field is required 
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="region">Region</label>
+			<input id="region" type="text" name="regionInput" 
+				ng-model="$ctrl.entrepreneur.address.region" 
+				ng-pattern="/^[a-zA-Z]+[\w\-][a-zA-Z]*$/">
+			<span class="error" ng-if="editForm.regionInput.$error.pattern">
+				enter a valid region
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="city">City</label>
+			<input id="city" type="text" name="cityInput" 
+				ng-model="$ctrl.entrepreneur.address.city" 
+				ng-pattern="/^[a-zA-Z]+([\-\s][a-zA-Z]+)?$/" 
+				required>
+			<span class="error" ng-if="editForm.cityInput.$error.required && editForm.cityInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.cityInput.$error.pattern">
+				enter a valid city
+			</span>
+		</div>	
+		<div class="form-group__item">
+			<label for="street">Street</label>
+			<input id="street" type="text" name="streetInput" 
+				ng-model="$ctrl.entrepreneur.address.street" 
+				ng-pattern="/^[1-9\s]{0,3}[a-zA-Z]+([\-\s][a-zA-Z]+)?$/" 
+				required>
+			<span class="error" ng-if="editForm.streetInput.$error.required && editForm.streetInput.$touched">		field is required
+			</span>
+			<span class="error" ng-if="editForm.streetInput.$error.pattern">
+				enter a valid street
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="strNumber">Street Number</label>
+			<input id="strNumber" type="text" name="strNumberInput" 
+				ng-model="$ctrl.entrepreneur.address.street_number" 
+				ng-pattern="/^[1-9][0-9]?(([\-\/\s]?[a-zA-Z])|([\/][1-9]))?$/" 
+				required>
+			<span class="error" ng-if="editForm.strNumberInput.$error.required && editForm.strNumberInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.strNumberInput.$error.pattern">
+				enter a valid street number
+			</span>
+		</div>	
+		<div class="form-group__item">
+			<label for="aptNumber">Apartment Number</label>			
+			<input id="aptNumber" type="number" name="aptNumberInput" step="1" min="1" max="400" 
+				ng-model="$ctrl.entrepreneur.address.apartment_number" 
+				ng-pattern="/^[0-9]+$/">
+			<span class="error" ng-if="editForm.aptNumberInput.$error.max">
+				enter a number < 400
+			</span>
+			<span class="error" ng-if="editForm.aptNumberInput.$error.min">
+				enter a number > 0
+			</span>
+			<span class="error" ng-if="editForm.aptNumberInput.$error.step || editForm.aptNumberInput.$error.number || editForm.aptNumberInput.$error.pattern">
+				enter an integer number	
+			</span>
+		</div>			
+	</div >
+	<div class="row form-group">
+		<div class="form-group__description">
+			Registration
+		</div>		
+		<div class="form-group__item">
+			<label for="regNumber">Registration Number</label>
+			<input id="regNumber" type="text" name="regNumberInput" 
+				ng-model="$ctrl.entrepreneur.registration.registration_number" 
+				ng-disabled="$ctrl.disabledInput"
+				format-registration
+				ng-pattern="/^[1-9][\s]?[0-9]{3}[\s]?[0]{3}[\s]?[0]{4}[\s]?[0-9]{6}$/"
+				required>
+			<span class="error" ng-if="editForm.regNumberInput.$error.required && editForm.regNumberInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.regNumberInput.$error.pattern">
+				enter a valid registration number
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="1">Registration Date</label>
+			<input id="1" type="date" name="regDayInput" 
+				ng-model="$ctrl.entrepreneur.registration.date_of_registration" 
+				format-date
+				ng-disabled="$ctrl.disabledInput"
+				datetime="dd.MM.yyyy" 
+				required>
+			<span class="error" ng-if="editForm.regDayInput.$error.required && editForm.regDayInput.$touched">
+				field is required
+			</span>
+		</div>
+	</div>
+	<div class="row form-group">
+		<div class="form-group__description">
+			Bank Account
+		</div>
+		<div class="form-group__item">
+			<label for="account">Account</label>
+			<input id="account" type="number" name="accountInput" 
+				ng-model="$ctrl.entrepreneur.bank_account.account" 
+				ng-pattern="/^2600[0-9]{6,12}$/"
+				required>
+			<span class="error" ng-if="editForm.accountInput.$error.required && editForm.accountInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.accountInput.$error.pattern">
+				enter a valid account
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="bank">Bank</label>
+			<input id="bank" type="text" name="bankInput" 
+				ng-model="$ctrl.entrepreneur.bank_account.bank" 
+				ng-pattern="/^[a-zA-Z]+([\s][a-zA-Z]+){0,2}$/"
+				required>
+			<span class="error" ng-if="editForm.bankInput.$error.required && editForm.bankInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.bankInput.$error.pattern">
+				enter a valid bank
+			</span>
+		</div>
+		<div class="form-group__item">
+			<label for="mfo">MFO</label>
+			<input id="mfo" type="number" name="mfoInput" 
+				ng-model="$ctrl.entrepreneur.bank_account.MFO" 
+				ng-pattern="/^3[0-9]{5}$/"
+				required>
+			<span class="error" ng-if="editForm.mfoInput.$error.required && editForm.mfoInput.$touched">
+				field is required
+			</span>
+			<span class="error" ng-if="editForm.mfoInput.$error.step || editForm.mfoInput.$error.number">
+				enter an integer number
+			</span>
+			<span class="error" ng-if="editForm.mfoInput.$error.pattern">
+				enter a valid MFO
+			</span>
+		</div>
+	</div>
+</form>
+<div class="changes">
+  <button class="button__changes" ng-disabled="editForm.$invalid" ng-click="$ctrl.saveEntrepreneur()">
+	  save changes
+  </button>
+</div>

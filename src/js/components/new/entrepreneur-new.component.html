@@ -1,10 +1,9 @@
 <div class="details">
-	<div class="row" ng-class="{opacity: $ctrl.isShowMessage === true}">
+	<div class="row" ng-class=" {opacity: $ctrl.isShowMessage === true }">
 		<entrepreneur-form 
-			on-change="$ctrl.saveEntrepreneurChanges(entrepreneur)" 
-			entrepreneur="$ctrl.entrepreneur" 			
+			on-change="$ctrl.saveNewEntrepreneur(entrepreneur)" 
 			disabledInput="$ctrl.disabledInput">
-		</entrepreneur-form>	
+		</entrepreneur-form>
 	</div>
 	<div class="row">
 		<div class="message" ng-if="$ctrl.isShowMessage">
@@ -12,5 +11,3 @@
 		</div>
 	</div>
 </div>
-
-

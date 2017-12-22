@@ -1,14 +1,18 @@
 
-.list, 
-.details {
+.list {
 	font: 15px Lucida Sans Unicode, sans-serif;
 	color: #000099;	
 	margin: 50px auto;
 	padding: 0 100px;
+	text-align: center;
 }
 .details {
 	padding: 0 150px;
-	font-size: 25px;	
+	font-size: 25px;
+	color: #000099;	
+	font: 15px Lucida Sans Unicode, sans-serif;	
+	position: relative;
+	margin-bottom: 100px;
 }
 .item {
 	position: relative;
@@ -45,16 +49,27 @@
 }
 .name {
 	text-align: center;
+	margin-top: 50px;
+	font-size: 25px;
 }
 h1 {
 	margin: 50px;
   text-align: center;
   color: #000099;
 }
+button {
+	color: #000099;
+}
 .button__details, 
 .button__details:focus,
 .button__edit,
-.button__edit:focus {
+.button__edit:focus,
+.button__new,
+.button__new:focus,
+.button__delete,
+.button__delete:focus,
+.button__changes,
+.button__changes:focus {
 	border-radius: 5px;
   background-color: #fff;
   border: solid 1px #000099;
@@ -66,23 +81,55 @@ h1 {
 .button__details {
 	position: absolute;
 	top: 20px;
-	right: 50px;
+	right: 120px;
 }
-.button__edit {
+.button__delete {
+	position: absolute;
+	top: 20px;
+	right: 18px;
+}
+.button__new {
+	width: 200px;
+}
+.button__changes {
+	width: 130px;
+  height: 40px;
+}
+.button__edit,
+.button__changes {
 	margin: 20px;
 }
+.button__new {
+	margin-bottom: 50px;
+}
 .button__details:hover,
-.button__edit:hover {
+.button__edit:hover,
+.button__new:hover,
+.button__changes:hover,
+.button__delete:hover {
+	color: #000099;
 	background-color: #e6e6ff;
 	transition: all .25s ease-in-out;
 }
-.button__details a:link,
-.button__edit a:link {
+.button__details a,
+.button__edit a,
+.button__new a {
+	color: #000099;
 	text-decoration: none;
 	display: block;
   width: 130px;
   height: 40px;
   line-height: 40px;
+ }
+ .button__delete {
+	text-decoration: none;
+	display: block;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+ }
+ .button__new a:link {
+ 	width: 200px;
  }
  tr {
  	font-size: 16px;
@@ -121,11 +168,74 @@ h1 {
   color: #800000;
   position: absolute;
 	top: 9px;
-  right: -130px;
+  right: -180px;
+  width: 170px;
+  height: 20px;
+ }
+ .form-group {
+ 	position: relative;
  }
  .form-group__item {
  	position: relative;
  }
+ .changes {
+ 	text-align: center;
+ }
+ input.ng-invalid.ng-touched {
+ 	border: 2px solid #800000;
+ 	outline: none;
+ }
+ button[disabled] {
+ 	opacity: .4;
+ }
+ input {
+ 	outline: none;
+ 	text-transform: capitalize;
+ }
+ .message {
+ 	text-align: center;
+ 	font-size: 18px;
+ 	color: #800000;
+	position: fixed;
+	animation: fadeout 2.8s;
+	top: 350px;
+	width: 30%;
+	left: 35%;
+	height: 90px;
+	line-height: 80px;
+	border-radius: 10px;
+  border: solid 2px #800000;
+  background-color: #fff;
+ }
+input[name="aptNumberInput"],
+input[name="codeInput"], 
+input[name="mfoInput"],
+input[name="accountInput"] {
+	padding-left: 14px
+}
+input[name="regDayInput"] {
+	padding-left: 50px;
+}
+.opacity {
+	opacity: .2;
+}
+@keyframes fadeout {
+  from {
+  	opacity: 1;
+  }
+  to {
+  	opacity: 0;
+  }
+}
+.row {
+  margin-right: 0;
+  margin-left: 0; 
+}
+input[disabled] {
+	background-color: #d1d1e0;
+}
+
+ 
 
 
 

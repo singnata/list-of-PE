@@ -2,7 +2,7 @@ export class EntrepreneursDataService {
   constructor($http) {
     'ngInject';
     this.$http = $http;
-    this.url = 'http://localhost:3000/entrepreneurs/';
+    this.url = '/api/entrepreneurs/';
   }
   loadEntrepreneursList() {
     return this.$http.get(this.url).then(function(response) {
@@ -18,4 +18,14 @@ export class EntrepreneursDataService {
       };
     })
   }
+  saveEntrepreneurChanges(entrepreneur, id) {
+    return this.$http.put((this.url + id), entrepreneur);
+  }
+  saveNewEntrepreneur(entrepreneur) {
+    return this.$http.post((this.url), entrepreneur);
+  }
+  deleteEntrepreneur(id) {
+    return this.$http.delete(this.url + id);
+  }
+
 };

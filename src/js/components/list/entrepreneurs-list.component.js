@@ -4,6 +4,7 @@ export class EntrepreneursListController {
   constructor(entrepreneursDataService) {
     'ngInject';
     this.entrepreneursDataService = entrepreneursDataService;  
+    this.confirmMessage = 'Are You Sure You Want to Delete PE ';
   }
   $onInit() {
     this.loadEntrepreneursList();
@@ -13,6 +14,12 @@ export class EntrepreneursListController {
     .then((response) => {
       this.entrepreneurItems = response.entrepreneurItems
     })
+  }
+  deleteEntrepreneur(id, name) {    
+    if(confirm(this.confirmMessage + name)) {
+      this.entrepreneursDataService.deleteEntrepreneur(id)
+      .then(this.loadEntrepreneursList());
+    }   
   }
 };
 

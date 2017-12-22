@@ -6,19 +6,15 @@
       "last_name": "Alanov",
       "code": 3870856152,
       "address": {
-        "zip_code": "04123",
+        "zip_code": "04128",
         "city": "Kyiv",
         "street": "Stelmakha",
-        "street_number": 5,
-        "apartment_number": 65
+        "street_number": 9,
+        "apartment_number": 69
       },
       "registration": {
         "registration_number": "2 078 000 0000 022688",
-        "date_of_registration": {
-          "day": 15,
-          "month": "February",
-          "year": 2013
-        }
+        "date_of_registration": "2012-12-02T22:00:00.000Z"
       },
       "bank_account": {
         "account": 2600565899,
@@ -41,11 +37,7 @@
       },
       "registration": {
         "registration_number": "2 009 000 0000 009833",
-        "date_of_registration": {
-          "day": 25,
-          "month": "November",
-          "year": 2015
-        }  
+        "date_of_registration": "2015-11-24T22:00:00.000Z"
       },
       "bank_account": {
         "account": 2600564450555,
@@ -58,7 +50,7 @@
       "first_name": "Volodymyr",
       "last_name": "Artamonov",
       "code": 3038008272,
-      "address":{
+      "address": {
         "zip_code": "09181",
         "region": "Kyivska",
         "city": "Bila Tserkva",
@@ -68,11 +60,7 @@
       },
       "registration": {
         "registration_number": "2 353 000 0000 036957",
-        "date_of_registration": {
-          "day": 11,
-          "month": "January",
-          "year": 2017
-        } 
+        "date_of_registration": "2017-01-10T22:00:00.000Z"
       },
       "bank_account": {
         "account": 2600564453000,
@@ -95,11 +83,7 @@
       },
       "registration": {
         "registration_number": "2 073 000 0000 023677",
-        "date_of_registration": {
-          "day": 18,
-          "month": "October",
-          "year": 2013
-        }
+        "date_of_registration": "2013-10-17T21:00:00.000Z"
       },
       "bank_account": {
         "account": 26005636547900,
@@ -121,11 +105,7 @@
       },
       "registration": {
         "registration_number": "2 071 000 0000 000079",
-        "date_of_registration": {
-          "day": 27,
-          "month": "May",
-          "year": 2015
-        }
+        "date_of_registration": "2015-05-26T21:00:00.000Z"
       },
       "bank_account": {
         "account": 260056047900,
@@ -147,11 +127,7 @@
       },
       "registration": {
         "registration_number": "2 069 000 0000 087249",
-        "date_of_registration": {
-          "day": 15,
-          "month": "December",
-          "year": 2015
-        }
+        "date_of_registration": "2015-12-14T22:00:00.000Z"
       },
       "bank_account": {
         "account": 2600560474450,
@@ -173,11 +149,7 @@
       },
       "registration": {
         "registration_number": "2 266 000 0000 021024",
-        "date_of_registration": {
-          "day": 20,
-          "month": "November",
-          "year": 2014
-        }
+        "date_of_registration": "2014-11-19T22:00:00.000Z"
       },
       "bank_account": {
         "account": 26007051214311,
@@ -199,11 +171,7 @@
       },
       "registration": {
         "registration_number": "2 072 000 0000 021119",
-        "date_of_registration": {
-          "day": 4,
-          "month": "April",
-          "year": 2012
-        }
+        "date_of_registration": "2012-04-03T21:00:00.000Z"
       },
       "bank_account": {
         "account": 26007101569,
@@ -226,11 +194,7 @@
       },
       "registration": {
         "registration_number": "2 415 000 0000 071243",
-        "date_of_registration": {
-          "day": 10,
-          "month": "October",
-          "year": 2016
-        }
+        "date_of_registration": "2016-10-09T21:00:00.000Z"
       },
       "bank_account": {
         "account": 2600808562293,
@@ -252,11 +216,7 @@
       },
       "registration": {
         "registration_number": "2 016 000 0000 000008",
-        "date_of_registration": {
-          "day": 27,
-          "month": "March",
-          "year": 2017
-        }
+        "date_of_registration": "2016-04-26T21:00:00.000Z"
       },
       "bank_account": {
         "account": 26000052680675,
@@ -279,11 +239,7 @@
       },
       "registration": {
         "registration_number": "2 522 000 0000 002086",
-        "date_of_registration": {
-          "day": 3,
-          "month": "October",
-          "year": 2012
-        }
+        "date_of_registration": "2012-10-02T21:00:00.000Z"
       },
       "bank_account": {
         "account": 2600005239875,
@@ -305,11 +261,7 @@
       },
       "registration": {
         "registration_number": "2 073 000 0000 020294",
-        "date_of_registration": {
-          "day": 15,
-          "month": "August",
-          "year": 2012
-        }
+        "date_of_registration": "2012-08-14T21:00:00.000Z"
       },
       "bank_account": {
         "account": 2600005239875,
@@ -332,11 +284,7 @@
       },
       "registration": {
         "registration_number": "2 676 000 0000 010011",
-        "date_of_registration": {
-          "day": 16,
-          "month": "Semtember",
-          "year": 2016
-        }
+        "date_of_registration": "2016-09-15T21:00:00.000Z"
       },
       "bank_account": {
         "account": 260000526975,
@@ -350,7 +298,7 @@
       "last_name": "Dundich",
       "code": 3375892167,
       "address": {
-        "zip_code": "02168",
+        "zip_code": "02068",
         "city": "Kyiv",
         "street": "Reheneratorna",
         "street_number": 4,
@@ -358,11 +306,7 @@
       },
       "registration": {
         "registration_number": "2 068 000 0000 0333484",
-        "date_of_registration": {
-          "day": 25,
-          "month": "November",
-          "year": 2013
-        }
+        "date_of_registration": "2012-11-24T22:00:00.000Z"
       },
       "bank_account": {
         "account": 260000526975,
@@ -384,17 +328,210 @@
       },
       "registration": {
         "registration_number": "2 068 000 0000 0107484",
-        "date_of_registration": {
-          "day": 6,
-          "month": "February",
-          "year": 2017
-        }
+        "date_of_registration": "2107-02-05T22:00:00.000Z"
       },
       "bank_account": {
         "account": 2600005469875,
         "bank": "Privat",
         "MFO": 300711
       }
+    },
+    {
+      "first_name": "tttt",
+      "last_name": "tttt",
+      "code": 4444,
+      "address": {
+        "zip_code": "44444",
+        "city": "ffff",
+        "street": "fffff",
+        "street_number": "44",
+        "apartment_number": 44
+      },
+      "registration": {
+        "registration_number": "2 999 000 0000 888888",
+        "date_of_registration": "2010-10-09T21:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 2600888888,
+        "bank": "khhhjh",
+        "MFO": 344478
+      },
+      "id": 16
+    },
+    {
+      "first_name": "tttt",
+      "last_name": "tttt",
+      "code": 4444,
+      "address": {
+        "zip_code": "44444",
+        "city": "ffff",
+        "street": "fffff",
+        "street_number": "44",
+        "apartment_number": 44
+      },
+      "registration": {
+        "registration_number": "444",
+        "date_of_registration": "2010-10-09T21:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 555,
+        "bank": "555",
+        "MFO": 5555
+      },
+      "id": 17
+    },
+    {
+      "first_name": "tttt",
+      "last_name": "tttt",
+      "code": 4471888888,
+      "address": {
+        "zip_code": "44444",
+        "city": "ffff",
+        "street": "fffff",
+        "street_number": "44",
+        "apartment_number": 44
+      },
+      "registration": {
+        "registration_number": "2 222 000 0000 222222",
+        "date_of_registration": "2010-10-09T21:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 2600088888,
+        "bank": "ffff",
+        "MFO": 399999
+      },
+      "id": 18
+    },
+    {
+      "first_name": "aaaaaaaa",
+      "last_name": "kjkjtt",
+      "code": 4444,
+      "address": {
+        "zip_code": "44444",
+        "city": "hjkjlkkjkkkjk",
+        "street": "fffff",
+        "street_number": "44",
+        "apartment_number": 44
+      },
+      "registration": {
+        "registration_number": "2 999 000 0000 888888",
+        "date_of_registration": "2010-10-09T21:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 260087655443,
+        "bank": "vfdfdfdfd",
+        "MFO": 379889
+      },
+      "id": 20
+    },
+    {
+      "first_name": "hjhj",
+      "last_name": "hhj",
+      "code": 8888,
+      "address": {
+        "zip_code": "99999",
+        "city": "jj",
+        "street": "jj",
+        "street_number": "7",
+        "apartment_number": 7
+      },
+      "registration": {
+        "registration_number": "2 078 000 0000 022688",
+        "date_of_registration": "2016-12-30T22:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 2600888888,
+        "bank": "gggggg",
+        "MFO": 388888
+      },
+      "id": 21
+    },
+    {
+      "first_name": "ggg",
+      "last_name": "ggg",
+      "code": 555,
+      "address": {
+        "zip_code": "55555",
+        "region": "g",
+        "street": "g",
+        "city": "g",
+        "street_number": "5",
+        "apartment_number": 1
+      },
+      "registration": {
+        "registration_number": "2 078 000 0000 022688",
+        "date_of_registration": "2016-01-29T22:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 2600444444,
+        "bank": "ggggg",
+        "MFO": 344444
+      },
+      "id": 22
+    },
+    {
+      "first_name": "ggg",
+      "last_name": "ggg",
+      "code": 5555999999,
+      "address": {
+        "zip_code": "55555",
+        "city": "tgg",
+        "street": "ggg",
+        "street_number": "6"
+      },
+      "registration": {
+        "registration_number": "2 078 000 0000 022688",
+        "date_of_registration": "2016-11-29T22:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 2600888888,
+        "bank": "jkjk",
+        "MFO": 344503
+      },
+      "id": 23
+    },
+    {
+      "first_name": "fff",
+      "last_name": "fff",
+      "code": 5555888888,
+      "address": {
+        "zip_code": "55559",
+        "city": "gt",
+        "street": "tt",
+        "street_number": "5j"
+      },
+      "registration": {
+        "registration_number": "2 078 000 0000 022688",
+        "date_of_registration": "2017-11-29T22:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 26009899999,
+        "bank": "gtgt",
+        "MFO": 344444
+      },
+      "id": 25
+    },
+    {
+      "first_name": "Sing",
+      "last_name": "Nat",
+      "address": {
+        "zip_code": "55432",
+        "city": "rien",
+        "street": "kfkkk",
+        "region": "",
+        "street_number": "55"
+      },
+      "code": 5555889898,
+      "registration": {
+        "registration_number": "2 078 000 0000 022688",
+        "date_of_registration": "2017-11-29T22:00:00.000Z"
+      },
+      "bank_account": {
+        "account": 2600888888,
+        "bank": "rrrr",
+        "MFO": 344444
+      },
+      "id": 26
     }
   ]
 }

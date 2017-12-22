@@ -1,7 +1,20 @@
-<h1>Private Entrepreneurs</h1>
+
 <div class="list">
+	<h1>Private Entrepreneurs</h1>
+	<button class="button__new">
+		<a href="#!/new">
+			add a new entrepreneur
+		</a>
+	</button>
   <div class="item" ng-repeat="item in $ctrl.entrepreneurItems"> 
     {{item.last_name}} {{item.first_name}} 
-    <button class="button__details" item="item" ng-click=""><a href="#!/details/{{item.id}}">more details</a></button>         
+    <button class="button__details" item="item">
+    	<a href="#!/{{item.id}}/details">
+    		more details
+    	</a>
+    </button>
+    <button class="button__delete" ng-click="$ctrl.deleteEntrepreneur(item.id, item.last_name)">
+				delete 
+		</button>
   </div>
 </div>

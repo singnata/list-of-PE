@@ -1,7 +1,7 @@
 <div class="row details">
-	<div class="name">
+	<div class="name" autoscroll>
 		<div>{{$ctrl.entrepreneur.last_name}} {{$ctrl.entrepreneur.first_name}}</div>
-		<button class="button__edit"><a href="#!/details/{{$ctrl.entrepreneur.id}}/edit">edit profile</a></button>
+		<button class="button__edit"><a href="#!/{{$ctrl.entrepreneur.id}}/edit">edit profile</a></button>
 	</div>
 	<div class="row">
 		<table>
@@ -48,16 +48,8 @@
 				<td>{{$ctrl.entrepreneur.registration.registration_number}}</td>
 			</tr>
 			<tr>
-				<td>Registration Day</td>
-				<td>{{$ctrl.entrepreneur.registration.date_of_registration.day}}</td>
-			</tr>
-			<tr>
-				<td>Registration Month</td>
-				<td>{{$ctrl.entrepreneur.registration.date_of_registration.month}}</td>
-			</tr>
-			<tr>
-				<td>Registration Year</td>
-				<td>{{$ctrl.entrepreneur.registration.date_of_registration.year}}</td>
+				<td>Registration Date</td>
+				<td>{{$ctrl.entrepreneur.registration.date_of_registration | date}}</td>
 			</tr>
 		</table>
 	</div>
