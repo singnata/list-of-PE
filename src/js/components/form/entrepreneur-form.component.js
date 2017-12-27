@@ -4,12 +4,17 @@ export class EntrepreneurFormController {
   saveEntrepreneur() {
     this.onChange({entrepreneur : this.entrepreneur})     
   }
+  $onChanges(change) {
+    if(change.originalEntrepreneur) {
+      this.entrepreneur = angular.copy(this.originalEntrepreneur);
+    }         
+  }
 };
 
 export const entrepreneurFormComponent = {
   template,
   bindings: {
-    entrepreneur: '<',
+    originalEntrepreneur: '<entrepreneur',
     disabledInput: '<',
     onChange: '&'
   },

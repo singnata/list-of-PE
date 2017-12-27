@@ -18,7 +18,7 @@ export class EntrepreneursListController {
   deleteEntrepreneur(id, name) {    
     if(confirm(this.confirmMessage + name)) {
       this.entrepreneursDataService.deleteEntrepreneur(id)
-      .then(this.loadEntrepreneursList());
+      .then(() => this.loadEntrepreneursList());
     }   
   }
 };

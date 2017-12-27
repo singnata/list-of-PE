@@ -88,7 +88,8 @@
 				ng-model="$ctrl.entrepreneur.address.street" 
 				ng-pattern="/^[1-9\s]{0,3}[a-zA-Z]+([\-\s][a-zA-Z]+)?$/" 
 				required>
-			<span class="error" ng-if="editForm.streetInput.$error.required && editForm.streetInput.$touched">		field is required
+			<span class="error" ng-if="editForm.streetInput.$error.required && editForm.streetInput.$touched">		
+				field is required
 			</span>
 			<span class="error" ng-if="editForm.streetInput.$error.pattern">
 				enter a valid street
@@ -202,9 +203,9 @@
 			</span>
 		</div>
 	</div>
+	<div class="changes">
+  	<button class="button__changes" ng-disabled="editForm.$invalid" ng-click="$ctrl.saveEntrepreneur()">
+	  	save changes
+  	</button>
+	</div>
 </form>
-<div class="changes">
-  <button class="button__changes" ng-disabled="editForm.$invalid" ng-click="$ctrl.saveEntrepreneur()">
-	  save changes
-  </button>
-</div>

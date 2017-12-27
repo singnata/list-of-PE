@@ -6,7 +6,7 @@
 			add a new entrepreneur
 		</a>
 	</button>
-  <div class="item" ng-repeat="item in $ctrl.entrepreneurItems"> 
+  <div class="item" ng-repeat="item in $ctrl.entrepreneurItems track by item.id"> 
     {{item.last_name}} {{item.first_name}} 
     <button class="button__details" item="item">
     	<a href="#!/{{item.id}}/details">
